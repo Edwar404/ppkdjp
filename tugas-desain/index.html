@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <style>
+        :root{
+            --prmary: #BC9F8B;
+            --secondary: #B5CFB7;
+            --tersier: #CADABF;
+            --fourth: #E7E8D8;
+        }
+        body{
+            background-color: var(--prmary);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 1.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: var(--secondary);
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+        hr{
+            height: 2px;
+            width: 80%;
+            background-color: var(--fourth);
+        }
+        header nav{
+            text-align: center;
+            background-color: var(--tersier);
+            padding: 18px;
+            border-radius: 15px;
+            font-size: 2rem;
+        }
+        header nav ul li{
+            display: inline-block;
+        }
+        header nav ul li a{
+            text-decoration: dotted;
+            margin: 30px;
+            color: black;
+        }
+        header nav ul li a:hover{
+            background-color: var(--fourth);
+            padding: 15px;
+            border-radius: 10px;
+            color: black;
+            margin: 15px;
+        }
+        .profile {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .profile img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h3,p {
+            text-align: center;
+        }
+        table{
+            width: 70%;
+            border-collapse: collapse;
+        } 
+        th {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #666;
+
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #666;
+        }
+
+        td ul {
+            list-style: none;
+            padding: 2px;
+            margin: 2px;
+        }
+        .tabel {
+            display: flex;
+            justify-content: center;
+        }
+        tbody{
+            text-align: center;
+        }
+        footer{
+            margin-top: 40px;
+            padding: 15px;
+            text-align: center;
+            background-color: var(--tersier);
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Download CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+            <hr/>
+            <div class="profile">
+                <img src="assets/logo.jpg" alt="Profile">
+                <h1>Edwar Ibrahim</h1>
+                <h2>Siswa</h2>
+            </div>
+            <hr/>
+        </header>
+
+        <article>
+            <section>
+                <div>
+                    <h3>OVERVIEW</h3>
+                    <p>Hallo, Saya adalah seorang web developer. Sekarang saya belajar HTML di PPKD JakPus</p>
+                </div>
+            </section>
+
+            <section class="tabel">    
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SKILL</th>
+                            <th>PENGALAMAN</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+
+        <footer>
+            <p>&copy;CopyRight Edwar Ibrahim 2024</p>
+        </footer>
+    </div>
+</body>
+</html>

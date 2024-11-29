@@ -1,0 +1,47 @@
+.back_organic.z-n1.object-fit-contain {
+  top: 140vh;
+  left: 0;
+  right: 0;
+}
+
+/* hr { */
+  /*width: 90%;*/
+  /*margin: auto;*/
+  /*height: 2px;*/
+  /*color: #287339;*/
+/* } */
+
+.background-nutrigrade {
+  top: 100vh;
+}
+
+#background-food {
+  top: 140vh;
+  left: 0;
+  right: 0;
+}
+
+.find-image {
+  border: solid .7em;
+}
+
+.ways-food {
+  border: solid .3em;
+}
+
+.ways-food-parent {
+  border: solid .3em;
+}
+
+#MD7-background {
+  top: 181vh;
+}
+
+#about-back {
+  top: 180vh;
+}
+
+.article-back.z-n1.object-fit-contain {
+  top: 190vh;
+}
+

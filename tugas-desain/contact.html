@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        :root{
+            --primary: #BC9F8B;
+            --secondary: #B5CFB7;
+            --tersier: #CADABF;
+            --fourth: #E7E8D8;
+        }
+        body{
+            background-color: var(--primary);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: var(--secondary);
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+        header nav{
+            text-align: center;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        header nav ul li{
+            display: inline-block;
+        }
+        header nav ul li a{
+            font-size: 2rem;
+            text-decoration: dotted;
+            margin: 26px;
+            color: black;
+        }
+        header nav ul li a:hover{
+            background-color: var(--fourth);
+            padding: 13px;
+            border-radius: 10px;
+            color: black;
+            margin: 13px;
+        }
+        .contact{
+            margin: 10px 50px;
+            font-size: 2rem;
+        }
+        form{
+            margin: 5px;
+        }
+        input{
+            width: 25%;
+            padding: 10px;
+            border-radius:8px ;
+            background-color: #FFECC8;
+        }
+        textarea{
+            border-radius: 8px;
+            background-color: #FFECC8;
+        }
+        button {
+            padding: 10px;
+            font-size: 2rem;
+            border-radius: 8px;
+            background-color: #FFECC8;
+        }
+        .kirim {
+            margin-bottom: 50px;
+        }
+        footer{
+            background-color: var(--fourth);
+            padding: 16px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        footer p {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Download CV</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+            <hr />
+        </header>
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <form action="">
+                <div class="form">
+                    <label for="">Email :</label><br>
+                    <input type="text">
+                </div>
+                <div class="form">
+                    <label for="">Pesan</label><br>
+                    <textarea name="" id="" cols="60" rows="15"></textarea>
+                </div>
+                <div class="form kirim">
+                    <button>submit</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>&copy;CopyRight Edwar Ibrahim 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
